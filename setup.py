@@ -42,9 +42,10 @@ setuptools.setup(
     extras_require={
         'ai': [
             'astor>=0.8.1',
-            'langchain==0.1.6',
-            'langchain_community<0.0.20',
+            'langchain>=0.3.0',
+            'langchain_community<0.3.0',
             'openai>=1.0.0',
+            'langchain-openai>=0.3.0'
         ],
         'airtable': [
             'pyairtable>=2.3.3'
@@ -137,7 +138,7 @@ setuptools.setup(
             'stomp.py==8.1.0',
         ],
         'all': [
-            'PyGithub==1.59.0',
+            'PyGithub==2.6.1',
             'astor>=0.8.1',
             'aws-secretsmanager-caching==1.1.1.5',
             'azure-eventhub==5.11.2',
@@ -177,8 +178,8 @@ setuptools.setup(
             'influxdb_client==1.36.1',
             'kafka-python==2.0.2',
             'kubernetes>=28.1.0',
-            'langchain==0.1.6',
-            'langchain_community<0.0.20',
+            'langchain>=0.3.0',
+            'langchain_community<0.3.0',
             'ldap3==2.9.1',
             'nats-py==2.6.0',
             'nkeys~=0.2.0',
