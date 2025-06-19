@@ -138,7 +138,7 @@ setuptools.setup(
             'stomp.py==8.1.0',
         ],
         'all': [
-            'typing-extensions>=4.11.0',
+            'typing-extensions>=4.10.0,<5.0',
             'PyGithub==2.6.1',
             'astor>=0.8.1',
             'aws-secretsmanager-caching==1.1.1.5',
