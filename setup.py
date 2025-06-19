@@ -44,7 +44,7 @@ setuptools.setup(
             'astor>=0.8.1',
             'langchain>=0.3.0',
             'langchain_community<0.3.0',
-            'openai>=1.0.0',
+            'openai>=1.86.0',
             'langchain-openai>=0.3.0'
         ],
         'airtable': [
@@ -138,7 +138,7 @@ setuptools.setup(
             'stomp.py==8.1.0',
         ],
         'all': [
-            'typing-extensions>=4.10.0,<5.0',
+            'typing-extensions>=4.11.0,<5.0',
             'PyGithub==2.6.1',
             'astor>=0.8.1',
             'aws-secretsmanager-caching==1.1.1.5',
@@ -184,7 +184,7 @@ setuptools.setup(
             'ldap3==2.9.1',
             'nats-py==2.6.0',
             'nkeys~=0.2.0',
-            'openai>=1.0.0',
+            'openai>=1.86.0',
             'opensearch-py==2.0.0',
             'opentelemetry-api==1.22.0',
             'opentelemetry-exporter-prometheus==0.43b0',
